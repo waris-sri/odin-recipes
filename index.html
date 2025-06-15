@@ -3,28 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Odin Recipes</title>
   </head>
-  <body
-    style="
-      padding: 2rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    "
-  >
-    <h1>Odin Recipes</h1>
-    <p><b>Project 1: Foundations Course</b></p>
-    <ul style="margin-left: -2rem">
-      <li>
-        <a href="./recipes/korean-fried-chicken.html">Korean Fried Chicken</a>
-      </li>
-      <li>
-        <a href="./recipes/chicken-massaman-curry.html"
-          >Chicken Massaman Curry</a
-        >
-      </li>
-      <li><a href="./recipes/oyakodon.html">Oyakodon</a></li>
-    </ul>
+  <body>
+    <h1 style="margin-top: 4rem">Odin Recipes</h1>
+    <div class="recipe-list">
+      <a href="./recipes/korean-fried-chicken.html" class="recipe-block">
+        <div>
+          <img
+            src="https://live.staticflickr.com/65535/53539149519_f2f44d4030_b.jpg"
+            alt="korean fried chicken"
+          />
+        </div>
+        Korean Fried Chicken
+      </a>
+      <a href="./recipes/chicken-massaman-curry.html" class="recipe-block">
+        <div>
+          <img
+            src="https://images.pexels.com/photos/31653133/pexels-photo-31653133.jpeg"
+            alt="chicken massaman curry"
+          />
+        </div>
+        Chicken Massaman Curry</a
+      >
+      <a href="./recipes/oyakodon.html" class="recipe-block">
+        <div>
+          <img
+            src="https://kufura.jp/wp-content/uploads/2024/01/AdobeStock_333462844-1440x960.jpeg"
+            alt="oyakodon"
+          />
+        </div>
+        Oyakodon</a
+      >
+    </div>
   </body>
 </html>
